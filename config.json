@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Sergeeva Maria"
+  },
+  "text": {
+    "more": "На данном графике можно увидеть, что все мои знакомые в ВК подразделяются на 3 основные группы. Проанализировав полученные данные, я могу сделать вывод, что: \n1) Все люди, относящиеся к группе зеленого цвета – мои близкие друзья, родственники. \n2) Группа, отмеченная фиолетовым цветом – мои одноклассники, ребята из лагеря, знакомые знакомых. \n3) Другая группа синего цвета – это все мои новые друзья, знакомые из ВШЭ.",
+    "intro": "Граф моих друзей Вк",
+    "title": "VK Graph"
+  },
+  "legend": {
+    "edgeLabel": "Знакомство",
+    "colorLabel": "Сообщество",
+    "nodeLabel": "Человек"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": false,
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
